@@ -1,0 +1,25 @@
+{
+      "name": "A pizza hat",
+      "price": "$11.62",
+      "description": "indulge in everyone’s life-long desire of wearing pizza atop their head",
+      "features": 
+        "comfortable to wear and really looks pizza",
+      "image": "pizza.jpg"
+    },
+    {
+    "name": "Baby hands candles",
+      "price": "$15.00",
+      "description": "the natural aversion to lighting a couple of eerily-lifelike baby hands on fire the natural aversion to lighting a couple of eerily-lifelike baby hands on fire, you’re in for a treat with these handmade, pure beeswax candles.",
+      "features": 
+        "really good for decoration ",
+      "image": "candle.jpg"
+    },	
+    {
+    "name": "A baby mop",
+      "price": "$29.99",
+      "description": "this suit that lets your baby mop the house for you.",
+      "features": 
+        "it is good to teach your children about chores",
+      "image": "candle.jpg"
+    },	
+    }
