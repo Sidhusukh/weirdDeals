@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Weird Deals Web Application </title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1> Weird Deals Web Application  </h1>
+      <h2>Please Fill This Information</h2>
+    </header>
+    <main>
+      <p> * is required information </p>
+       <form action="" method="post">
+          <fieldset class="form-group">
+             <input type="text" name="firstname" class="form-control" placeholder="Please enter your first name *" required id="fname">
+             <span class="errorName" aria-live="polite"></span>
+               <input type="number" name="age" class="form-control" placeholder="Please enter your age *" required id="age">
+               <span class="errorAge" aria-live="polite"></span>
+             <input type="text" name="location" class="form-control" placeholder="Please enter your location *" required id="location">
+             <span class="errorLocation" aria-live="polite"></span>
+             <input type="email" name="email" class="form-control" placeholder="Please enter your email *" required id="mail">
+             <span class="errorEmail" aria-live="polite"></span>
+          </fieldset>
+          <input type="submit" value="submit" name="submit">
+       </form>
+
+    </main>
+    <footer>
+      <p> &copy; 2019 Weird Deals</p>
+    </footer>
+  </div><!--end container -->
+</body>
+<script src="api-validation.js"></script>
+</html>
